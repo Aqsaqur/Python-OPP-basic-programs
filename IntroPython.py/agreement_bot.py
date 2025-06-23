@@ -38,3 +38,5 @@ Enter_animal = str(input("Enter Your Fav Animal: "))
 Display = Animal(Enter_animal)
 Display.Output()
 
+
+
