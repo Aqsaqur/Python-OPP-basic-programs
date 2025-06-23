@@ -2,6 +2,8 @@
 # two integer inputs from the user 
 # and calculates their sum.
 
+# OOP Code 
+
 class Calculate():
     def __init__(self, num1, num2):
         self.num1 = num1
@@ -16,13 +18,15 @@ number2 = int(input("Enter Num 2: "))
 display = Calculate(number1, number2)
 display.output()
 
-# def Calculate_two_number():
-#     num1 = int(input("Enter Number 1: "))
-#     num2  = int(input("Enter Number 2: "))
+#Normal Code
 
-#     print("The Total Sum:", num1 + num2)
+def Calculate_two_number():
+    num1 = int(input("Enter Number 1: "))
+    num2  = int(input("Enter Number 2: "))
 
-# if __name__ == '__main__':
-#     Calculate_two_number()
+    print("The Total Sum:", num1 + num2)
+
+if __name__ == '__main__':
+    Calculate_two_number()
 
 
